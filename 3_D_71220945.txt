@@ -1,0 +1,45 @@
+string = ""
+n = (int(input("masukkan angka")))
+kolom = n
+no = 0
+
+while kolom >= 0 :
+        kol = kolom
+while kolom >0:
+
+        kiri  = 1
+        string= string +"  " 
+        kol = kol - 1
+        kiri = 1
+while kiri == 1 :
+        string - string +"  "+str(no) + " "
+        kiri = kiri +1
+        kanan = 1
+while kanan <kiri -1 :
+    string = string +"  " +str(no)+"  "
+
+    string = string +"\n\n"
+    kolom = kolom -1
+    no = no
+
+    no = no -2
+
+    kolom = 1
+while kolom <= n:
+    kol = kolom +1
+
+while kol > 1 :
+    string = string 
+    kol = kol -1
+
+    kiri = 0
+while kanan >1:
+    string= string + "  " + str (no) +"  "
+    kanan = kanan -1
+
+
+    string=string + "\n\n"
+    kolom = kolom + 1
+    no = no -1
+
+print (string)

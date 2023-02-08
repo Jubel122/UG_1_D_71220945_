@@ -1,0 +1,12 @@
+print ("===========Nilai 1==============")
+nilai_harian = (float(input("masukkan nilai nilai harian anda")))
+nilai_uts = (float(input("masukkan nilai uts anda")))
+nilai_uas = (float(input("masukkan nilai uas anda")))
+
+print ('==' /2)
+
+
+print ("==========nilai kedua===========")
+nilai_harian = (float(input("masukkan nilai harian anda")))
+nilai_uts = (float(input("masukkan nilai uts anda")))
+nilai_uas = (input(("masukkan nilai uas anda")))

@@ -1,0 +1,19 @@
+kalimat = "Bapak Budi sedang makan bersama para bapak - bapak"
+
+#  seluruh huruf diubah menjadi huruf kecil
+kalimat_dalam_huruf_kecil = kalimat.lower()
+
+kata = input('Kata yang di cari: ')
+
+#  kata_yang_dicari diubah menjadi huruf kecil 
+kata_yang_dicari = kata.lower()
+
+# kalimat diubah dalam bentuk array
+kumpulan_kata =  kalimat_dalam_huruf_kecil.split(" ")
+jumlah = 0
+
+for kata in kumpulan_kata:
+    if kata == kata_yang_dicari:
+        jumlah = jumlah + 1
+
+print("Jumlah kata yang dicari : ", jumlah)
